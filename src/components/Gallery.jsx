@@ -36,7 +36,7 @@ const Gallery = () => {
                     <img class="h-auto max-w-full rounded-lg hover:scale-95" 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
                 </div>
-                <div>
+                {/* <div>
                     <img class="h-auto max-w-full rounded-lg hover:scale-95" 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
                 </div>
@@ -47,7 +47,7 @@ const Gallery = () => {
                 <div>
                     <img class="h-auto max-w-full rounded-lg hover:scale-95" 
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
-                </div>
+                </div> */}
                 
             </div>
 
