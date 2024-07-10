@@ -1,92 +1,116 @@
-import React from 'react'
-import { Link } from 'react-scroll';
- 
-const Navbar = () => {
-    const navItems=[
-        {link:"Home",path:"home"},
-        {link:"Our Work",path:"service"},
-        {link:"About us",path:"about"},
-        {link:"Supported by",path:"company"},
-        {link:"Testimonial",path:"testimonial"},
-        {link:"Blog",path:"Blog"},
-    ];
-    const dropdown=[
-        {link:"Dashbord",path:"dashbord"},
-        {link:"Setting",path:"Setting"},
-        {link:"Signout",path:"signout"},
-    ];
+
+
+// import { Avatar, Dropdown, Navbar } from "flowbite-react";
+// import AboutMenu from "./DropDown";
+
+// export default function Component() {
+//   return (
+//     <Navbar fluid rounded>
+//       <Navbar.Brand href="https://flowbite-react.com">
+//         <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+//         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+//       </Navbar.Brand>
+//       <div className="flex md:order-2">
+//         <Navbar.Toggle />
+//       </div>
+//       <Navbar.Collapse>
+//         <Navbar.Link href="#" active>
+//           Home
+//         </Navbar.Link>
+//         <Navbar.Link href="#">{<AboutMenu/>}</Navbar.Link>
+//         <Navbar.Link href="">Blog</Navbar.Link>
+//         <Navbar.Link href="#">Pricing</Navbar.Link>
+//         <Navbar.Link href="#">Contact</Navbar.Link>
+//       </Navbar.Collapse>
+//     </Navbar>
+//   );
+// }
+
+
+import { MegaMenu, Navbar } from 'flowbite-react';
+import { HiArrowRight, HiChevronDown } from 'react-icons/hi';
+
+export default function Component() {
   return (
-    
-    // <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-    //     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    //         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-    //             <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-    //             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    //         </a>
-    //         <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-    //             <span class="sr-only">Open main menu</span>
-    //             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-    //                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-    //             </svg>
-    //         </button>
-    //         {/* <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-    //         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-    //             {
-    //                 navItems.map(({link,path}) => <Link to={path} spy={true} smooth={true} key={path}
-    //                     offset={-100} className='block text-base text-gray-900 hover:text-green-700 first:font-medium cursor-pointer'> 
-    //                     {link}</Link>)
-    //             }
-    //         </ul>
-    //         </div> */}
-    //              <div className="hidden w-[100%] md:block md:w-auto" id="navbar-dropdown">
-    //                     <ul className="flex flex-col items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-    //                         {
-    //                             navItems.map(({ link, path }) => (
-    //                                 <Link to={path} spy={true} smooth={true} key={path} offset={-100} className="block text-base py-2 text-gray-900 dark:text-gray-300 hover:text-white dark:hover:text-white md:hover:text-white first:font-medium cursor-pointer   rounded md:rounded hover:bg-green-500 dark:hover:bg-green-500  transition-all duration-300 ease-in-out hover:px-4 md:hover:px-2">
-    //                                     {link}
-    //                                 </Link>
-    //                             ))
-    //                         }
-    //                         <li>
-    //                         <Link to='signin' spy={true} smooth={true} key='signin' offset={-100}><button className="block text-base py-2 text-white  first:font-medium cursor-pointer p-2 rounded bg-green-400 hover:bg-green-500  ">
-    //                             SignIn</button>
-    //                         </Link>
-    //                         </li>
-    //                     </ul>
-    //                 </div>
-
-
-    //     </div>
-    // </nav>
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
-    <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://img.freepik.com/premium-vector/wellness-logo-vector-art-illustration-7_554682-10257.jpg?w=740" className="h-8" alt="Flowbite Logo" />
-            <span className=" m self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NGO</span>
-        </a>
-        <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-            <span className="sr-only">Open main menu</span>
-            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
-            </svg>
-        </button>
-        <div className="hidden w-[100%] md:block md:w-auto" id="navbar-dropdown">
-            <ul className="flex flex-col items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                {
-                    navItems.map(({ link, path }) => (
-                        
-                        <Link to={path} spy={true} smooth={true} key={path} offset={-100} className="block text-base py-2 text-gray-900 dark:text-gray-300 hover:text-white dark:hover:text-white md:hover:text-white first:font-medium cursor-pointer   rounded md:rounded hover:bg-green-500 dark:hover:bg-green-500  transition-all duration-300 ease-in-out hover:px-4 md:hover:px-2">
-                            {link}
-                        </Link>
-                    ))
-                }
-                
-            </ul>
+    <MegaMenu>
+      <Navbar.Brand href="/">
+        <img alt="" src="/favicon.svg" className="mr-3 h-6 sm:h-9" />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Navbar.Link href="/Home">Home</Navbar.Link>
+        <MegaMenu.DropdownToggle>
+          Company
+          <HiChevronDown className="ml-2" />
+        </MegaMenu.DropdownToggle>
+        <Navbar.Link href="/">Marketplace</Navbar.Link>
+        <Navbar.Link href="/">Resources</Navbar.Link>
+        <Navbar.Link href="/">Contact</Navbar.Link>
+      </Navbar.Collapse>
+      <MegaMenu.Dropdown>
+        <div className="mx-auto mt-6 grid max-w-screen-xl border-y border-gray-200 px-4 py-5 text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
+          <ul className="space-y-4 sm:mb-4 md:mb-0">
+            {/* <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Online Stores
+              </a>
+            </li> */}
+            <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Segmentation
+              </a>
+            </li>
+            {/* <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Marketing CRM
+              </a>
+            </li> */}
+            {/* <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Online Stores
+              </a>
+            </li> */}
+          </ul>
+          <ul className="mb-4 hidden space-y-4 sm:block md:mb-0">
+            <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Our Blog
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                License
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-500">
+                Resources
+              </a>
+            </li>
+          </ul>
+          <div className="mt-4 md:mt-0">
+            <h2 className="mb-2 font-semibold text-gray-900 dark:text-white">Our brands</h2>
+            <p className="mb-2 text-gray-500 dark:text-gray-400">
+              At Flowbite, we have a portfolio of brands that cater to a variety of preferences.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-600 dark:text-primary-500 dark:hover:text-primary-700"
+            >
+              Explore our brands
+              <span className="sr-only">Explore our brands</span>
+              <HiArrowRight className="ml-2" />
+            </a>
+          </div>
         </div>
-    </div>
-</nav>
-    
-  )
+      </MegaMenu.Dropdown>
+    </MegaMenu>
+  );
 }
 
-export default Navbar
