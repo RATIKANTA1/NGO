@@ -9,27 +9,28 @@ const Services = () => {
     ]
   return (
     <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto' id='service'>
-        <div className='text-center my-8'>
-            <div data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
+        {/* <div className='text-center my-8'> */}
+
+            {/* <div data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <h2 className='text-4xl text-gray-500 font-semibold mb-2' >Our Clients</h2>
                 <p className='text-gray-500 '>We have been working with some fortune 500+ clients</p>
-            </div>
+            </div> */}
             {/* companies logo */}
-            <div className='container mx-auto p-4 flex flex-wrap justify-evenly items-center gap-8' data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
+            {/* <div className='container mx-auto p-4 flex flex-wrap justify-evenly items-center gap-8' data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <img src='/src/assets/slogo.png' alt='company' className='w-16 h-16 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32'/>
                 <img src='/src/assets/slogo.png' alt='company' className='w-16 h-16 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32'/>
                 <img src='/src/assets/slogo.png' alt='company' className='w-16 h-16 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32'/>
                 <img src='/src/assets/slogo.png' alt='company' className='w-16 h-16 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32'/>
                 <img src='/src/assets/slogo.png' alt='company' className='w-16 h-16 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32'/>
                 
-            </div>
-        </div>
+            </div> */}
+        {/* </div> */}
         {/* services */}
-        <div className='mt-20 md:w-1/2 mx-auto text-center' data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
+        <div className='mt-3 md:w-1/2 mx-auto text-center' data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
             <h2 className='text-4xl text-gray-500 font-semibold mb-2'>Our Members</h2>
             <p className='text-gray-500 '>We have been working with some fortune 500+ clients</p>
         </div>
-        <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
+        <div className='mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
             {
                 services.map(service => <div key={service.id} data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
                 className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full '>

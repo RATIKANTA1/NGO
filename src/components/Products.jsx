@@ -8,7 +8,7 @@ const Products = () => {
     <div >
 
         {/* about text */}
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='product'>
+        {/* <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='product'>
             <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
                 <div data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <img className='md:w-4/5 md:h-4/5 animate-bounceSlow' src={hero2} alt='skb' />
@@ -23,7 +23,7 @@ const Products = () => {
                     <button className='btn-primary'>Learn More</button>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         {/* companies stats */}
         {/* <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-16 bg-gray-100' id='testimonial'>

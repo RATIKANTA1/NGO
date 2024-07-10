@@ -1,9 +1,9 @@
 import './App.css'
 import About from './components/About'
 import Blog from './components/Blog'
-import Footer from './components/MyFooter'
+// import Footer from './components/MyFooter'
 import Home from './components/Home'
-import Component from './components/Navbar'
+// import Component from './components/Navbar'
 import Newsletter from './components/Newsletter'
 import Products from './components/Products'
 import Services from './components/Services'
@@ -16,17 +16,17 @@ function App() {
  
   return (
     <>
-      <Component/>
+      {/* <Component/> */}
       <Home/>
       <About/>
       <Services/>
-      <Products/>
+      {/* <Products/> */}
       <Blog/>
       <Donate/>
       <Companies/>
       <Gallery/>
       <Newsletter/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
