@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 const Aboutmore = () => {
   return (
     <div className='w-full h-[180vh]  bg-gray-100 '>
-                <Link to={"/"}><p className='text-xl text-center font-semibold hover:bg-green-200'>Back to home</p></Link>
+               <div class="text-center">
+        <a href="/" class="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
+            Back to Home
+        </a>
+    </div>
 
                 <div class="container mx-auto p-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-6 rounded-lg shadow-lg">

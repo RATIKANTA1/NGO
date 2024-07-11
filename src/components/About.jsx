@@ -28,7 +28,7 @@ const About = () => {
         </div>
 
         {/* companies stats */}
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-16 bg-gray-100 flex justify-around  py-10 md:h-[70vh] sm:felx-wrap'>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-16 bg-gray-100 flex justify-around  py-10 md:h-[70vh] sm:flex-wrap'>
 
                <MyCard heading={texts[0].heading} para={texts[0].para}/>
              

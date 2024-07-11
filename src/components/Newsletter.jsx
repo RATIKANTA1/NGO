@@ -2,6 +2,7 @@ import React from 'react';
  import intern from '../assets/intern.jpg'
  import volunteer from '../assets/volunteer.jpg'
   import contact from '../assets/contact.png'
+  import { Link } from 'react-router-dom'
 const Newsletter = () => {
     return  <>
     
@@ -45,7 +46,7 @@ const Newsletter = () => {
                     {/* <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span> */}
                     {/* <p class="text-lg font-bold text-black truncate block capitalize mb-2 text-center">Product Name</p> */}
                     <div class="flex items-center justify-center">
-                        <button className='px-7 py-2 mt-5 bg-green-400 text-white rounded hover:bg-slate-400'>Contact us</button>
+                       <Link to={"/Contact"}> <button className='px-7 py-2 mt-5 bg-green-400 text-white rounded hover:bg-slate-400'>Contact us</button></Link>
                     </div>
                 </div>
             </div>
