@@ -1,6 +1,6 @@
 import React from 'react'
 import hero2 from "../assets/hero2.png"
-import MyCard from '../Card'
+import MyCard from './Card'
 
 const About = () => {
     const texts = [{heading:"Mission", 
