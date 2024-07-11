@@ -3,7 +3,7 @@ import About from './components/About'
 import Blog from './components/Blog'
 // import Footer from './components/MyFooter'
 import Home from './components/Home'
-import Component from './components/Navbar'
+import Navbar from './components/Navbar'
 import Newsletter from './components/Newsletter'
 // import Products from './components/Products'
 import Services from './components/Services'
@@ -16,7 +16,7 @@ function App() {
  
   return (
     <>
-      <Component/>
+      <Navbar/>
       <Home/>
       <About/>
       <Services/>
