@@ -6,9 +6,11 @@ import Component from './components/Navbar'
   import App from './App'
 const Routing = () => {
   return < Router>
-  <Component/>
+  {/* <Component/> */}
 <Routes>
+   
    <Route path='/' element={<App/>}/>
+
    <Route path='/readmore' element={<Aboutmore/>}/>
    
     
