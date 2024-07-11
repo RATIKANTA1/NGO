@@ -20,15 +20,15 @@ const About = () => {
                     <img  className='md:w-4/5 md:h-4/5 transition-all' src={hero2} alt='skb' />
                 </div>
                 <div className='md:w-3/5 mx-auto' data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
-                    <p className='md:w-3/4 text-sm text-gray-500 mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, itaque. Laborum autem, pariatur doloremque labore molestias nisi? Iure, laborum perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iusto, maxime tempora  unde 
+                    <p className='md:w-3/4 text-xl text-gray-500 mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, itaque. Laborum autem, pariatur doloremque labore molestias nisi? Iure, laborum perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iusto, maxime tempora  unde 
                     consequatur, tempore hic voluptas dolores deserunt excepturi, exercitationem  doloremque voluptatem officiis ipsum?</p>
-                    <button className='btn-primary'>Learn More</button>
+                    {/* <button className='btn-primary'>Learn More</button> */}
                 </div>
             </div>
         </div>
 
         {/* companies stats */}
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-16 bg-gray-100 flex justify-around gap-x-10 py-10 md:h-[70vh] '>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-16 bg-gray-100 flex justify-around  py-10 md:h-[70vh] sm:felx-wrap'>
 
                <MyCard heading={texts[0].heading} para={texts[0].para}/>
              
