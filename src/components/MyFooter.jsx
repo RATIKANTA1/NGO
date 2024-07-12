@@ -10,9 +10,9 @@ const MyFooter = () => {
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center md:px-8">
           <div className='mb-8 sm:mb-0 sm:flex sm:flex-col sm:items-center'>
             <Footer.Brand
-              href="https://flowbite.com"
+              href="/"
               src={logo}
-              alt="Flowbite Logo"
+              alt="Kshitiksha"
               name="Kshitiksha Foundation"
               className='w-20 h-20'
             />
