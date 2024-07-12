@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import MyFooter from './MyFooter';
+import Navbar from './Navbar';
 
-const Gallery = () => {
-    const [visibility, setVisibility] = useState(false);
+const MoreGallery = () => {
+    const [visibility, setVisibility] = useState(true);
 
     const toggleVisibility = () => {
         setVisibility(!visibility);
     };
 
     return (
+        <>
+        <Navbar></Navbar>
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='gallery'>
             <div className='text-center md:w-3/4 mx-auto flex flex-col items-center' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
@@ -21,7 +25,7 @@ const Gallery = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover-scale-95"
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
                 </div>
                 <div>
@@ -44,31 +48,32 @@ const Gallery = () => {
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
                 </div>
-                {visibility && (
-                    <>
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
-                        </div>
-                    </>
-                )}
+
+                <div>
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
+                </div>
+                <div>
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
+                </div>
+                <div>
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
+                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
+                </div>
+
+
             </div>
             <div className="text-end mt-4 text-blue-700">
-                <button onClick={toggleVisibility}>
-                    <Link to={"/moregallery"}>{visibility ? 'Show Less...' : 'Show More...'}</Link>
-                    
+                <button >
+                    <Link to="/?section=gallery">{visibility ? 'Show Less...' : 'Show More...'}</Link>
                 </button>
             </div>
-        </div>
-    );
-};
 
-export default Gallery;
+        </div>
+        <MyFooter></MyFooter>
+        </>
+    );
+}
+
+export default MoreGallery;
