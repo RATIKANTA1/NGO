@@ -8,12 +8,12 @@ const Contact = () => {
         <div className='flex flex-col min-h-screen'>
             <Navbar />
             <div className='flex-1 flex flex-col'>
-                <div className='flex flex-1 flex-col md:flex-row justify-around items-center bg-[#FFFF80] p-4 md:p-24'>
+                <div className='flex flex-1 flex-col md:flex-row justify-around items-center bg-gray-100 p-4 md:p-24'>
                     <div className='w-full md:w-1/3 p-4'>
-                        <h1 className='text-2xl font-serif font-bold text-center mb-5 underline'>Contact Us</h1>
-                        <p className=' md:block text-sm md:text-xl font-semibold'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni.</p>
-                        <p className='text-sm md:text-xl font-semibold my-2'>Email: email@gmail.com</p>
-                        <p className='text-sm md:text-xl font-semibold my-2'>Mobile: +91 000000000</p>
+                        <h1 className='text-4xl text-gray-500 font-semibold text-center mb-5 '>Contact Us</h1>
+                        <p className=' md:block text-sm md:text-xl font-semibold text-justify text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A pariatur consequuntur, doloremque ab ipsa maxime tempora aut rerum tempore magni.</p>
+                        <p className='text-sm md:text-xl font-semibold my-2 text-gray-500'>Email: email@gmail.com</p>
+                        <p className='text-sm md:text-xl font-semibold my-2 text-gray-500'>Mobile: +91 000000000</p>
                     </div>
                     <div className='w-full md:w-1/3 bg-white p-8 rounded-lg'>
                         <form action="#" method="POST" className='space-y-4'>

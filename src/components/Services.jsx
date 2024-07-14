@@ -33,7 +33,7 @@ const Services = () => {
           </div>
           <div className='mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
                {
-                 services.map(service => <div key={service.id} data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
+                 services.map(service => <div key={service.id} data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
                  className='max-w-sm text-center  mx-auto overflow-hidden rounded-md shadow cursor-pointer hover:translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full '>
                      {/* <div >
                           <div className='bg-[#E8F5E9] mb-4 h-20 w-20 mx-auto rounded-tl-3xl rounded-br-3xl '>
@@ -47,16 +47,16 @@ const Services = () => {
 
     
     <div class=" bg-white rounded-tl-3xl rounded-br-3xl">
-        <div class="flex items-center justify-center mt-6">
-            <img class="w-24 h-24 rounded-full" src={service.image} alt="Profile Picture" className='-ml-5'/>
+        <div class="flex items-center justify-center p-6">
+            <img class="w-24 h-24 rounded-full" src={service.image} alt="Profile Picture"/>
         </div>
         <div class="p-6 text-center">
             <h2 class="text-xl font-semibold text-gray-800">{service.name}</h2>
             <p class="text-gray-600 mt-2">{service.title}</p>
             <p class="text-gray-600 mt-2">{service.description}</p>
-            <div class="mt-4">
+            {/* <div class="mt-4">
                 <button class="px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 focus:outline-none">Follow</button>
-            </div>
+            </div> */}
         </div>
     </div>
 

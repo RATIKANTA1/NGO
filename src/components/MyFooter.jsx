@@ -3,18 +3,22 @@ import { Footer } from "flowbite-react";
 import { BsLinkedin, BsFacebook, BsYoutube, BsInstagram, BsTwitter } from "react-icons/bs";
 import logo from '../assets/logo.png';
 
+
+
 const MyFooter = () => {
+
   return (
-    <Footer className='px-4 lg:px-14 h-fit mx-auto py-8'>
+    <Footer  className='px-4 lg:px-14 h-fit mx-auto py-8   '>
       <div className="w-full">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center md:px-8">
-          <div className='mb-8 sm:mb-0 sm:flex sm:flex-col sm:items-center'>
+          <div className=''>
             <Footer.Brand
               href="/"
               src={logo}
               alt="Kshitiksha"
               name="Kshitiksha Foundation"
-              className='w-20 h-20'
+              className='w-20 h-20 text-wrap'
+          
             />
             <div className='text-gray-700 mt-4 sm:mt-0'>
               <p className='mb-1'>© 2024 Kshitiksha Foundation Ltd</p>
