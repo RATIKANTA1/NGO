@@ -9,7 +9,7 @@ const Blog = () => {
     ]
   return (
     <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12' id='Blog'>
-        <div data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
+        <div data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
             className='text-center md:w-3/4 mx-auto flex flex-col items-center' >
             <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
                 Our latest Blog</h2>
@@ -19,7 +19,7 @@ const Blog = () => {
         {/* blogs */}
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 items-center justify-between'>
             {
-                blogs.map(blog=> <div key={blog.id} data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
+                blogs.map(blog=> <div key={blog.id} data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
                     className='mx-auto relative mb-12 cursor-pointer ' >
                     <img src={blog.image} alt='' className='hover:scale-95 transition-all duration-300'/>
                     <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12'>
