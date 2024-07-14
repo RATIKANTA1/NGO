@@ -16,13 +16,13 @@ const About = () => {
 
             {/* about text */}
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='about'>
-                <h2 className='text-4xl text-center font-serif'>About us</h2>
+                <h2 className='text-center text-4xl text-gray-500 font-semibold'>About us</h2>
                 <br /><br />
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 '>
-                    <div data-aos="zoom-out-left" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                         <img className='md:w-4/5 md:h-4/5 transition-all' src={hero2} alt='skb' />
                     </div>
-                    <div className='md:w-4/5 mx-auto' data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
+                    <div className='md:w-4/5 mx-auto' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                         <p className=' lg:text-xl  text-gray-500 mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, itaque. Laborum autem, pariatur doloremque labore molestias nisi? Iure, laborum perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iusto, maxime tempora  unde
                             consequatur, tempore hic voluptas dolores deserunt excepturi, exercitationem  doloremque voluptatem officiis ipsum?</p>
                         {/* <button className='btn-primary'>Learn More</button> */}
