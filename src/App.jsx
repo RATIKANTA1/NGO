@@ -14,6 +14,7 @@ import MyFooter from './components/MyFooter';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
+import Groupmember from './components/Groupmember';
 
 function App() {
   const location = useLocation();
@@ -43,12 +44,14 @@ function App() {
       <Navbar />
       <section id="home"><Home /></section>
       <section id="about"><About /></section>
+      <section id='member'><Groupmember/></section>
       <section id="services"><Services /></section>
       <section id="blog"><Blog /></section>
       <section id="donate"><Donate /></section>
       <section id="companies"><Companies /></section>
       <section id="gallery"><Gallery /></section>
       <section id="newsletter"><Newsletter /></section>
+      
       <MyFooter />
     </>
   );
