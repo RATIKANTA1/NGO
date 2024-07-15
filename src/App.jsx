@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Donate from './components/Donate';
 import Gallery from './components/Gallery';
 import Companies from './components/Companies';
+import Scrolltop from './components/Scrolltop';
 import MyFooter from './components/MyFooter';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -51,7 +52,7 @@ function App() {
       <section id="companies"><Companies /></section>
       <section id="gallery"><Gallery /></section>
       <section id="newsletter"><Newsletter /></section>
-      
+      <Scrolltop/>
       <MyFooter />
     </>
   );
