@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from '../assets/profile2.png'
+ import ig from '../assets/instagram.png'
 import { BsLinkedin, BsFacebook, BsYoutube, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Groupmember = () => {
@@ -27,6 +28,9 @@ const Groupmember = () => {
                             <a className="text-blue-400 hover:text-blue-600" href="https://twitter.com/KshitikshaF" target="_blank" rel="noopener noreferrer">
                                 <BsTwitter size={24} />
                             </a>
+                            <a className="opacity-85 hover:opacity-100" href="https://www.instagram.com/kshitikshafoundation/?hl=en" target="_blank" rel="noopener noreferrer">
+                                <img src={ig} alt="" className='w-[24px] h-[24px]' />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -46,6 +50,9 @@ const Groupmember = () => {
                             <a className="text-blue-400 hover:text-blue-600" href="https://twitter.com/KshitikshaF" target="_blank" rel="noopener noreferrer">
                                 <BsTwitter size={24} />
                             </a>
+                            <a className="opacity-85 hover:opacity-100" href="https://www.instagram.com/kshitikshafoundation/?hl=en" target="_blank" rel="noopener noreferrer">
+                                <img src={ig} alt="" className='w-[24px] h-[24px]' />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -64,6 +71,9 @@ const Groupmember = () => {
                             </a>
                             <a className="text-blue-400 hover:text-blue-600" href="https://twitter.com/KshitikshaF" target="_blank" rel="noopener noreferrer">
                                 <BsTwitter size={24} />
+                            </a>
+                            <a className="opacity-85 hover:opacity-100" href="https://www.instagram.com/kshitikshafoundation/?hl=en" target="_blank" rel="noopener noreferrer">
+                                <img src={ig} alt="" className='w-[24px] h-[24px]' />
                             </a>
                         </div>
                     </div>
