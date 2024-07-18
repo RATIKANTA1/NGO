@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
     const services = [
-        { id: 1, title: "Manager", name: "Ratikanta Behera", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/profile.png" },
+        { id: 1, title: "Manager", name: "Name", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/slogo.png" },
         { id: 2, title: "National Association", name: "Name", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/slogo.png" },
         { id: 3, title: "Clubs and Groups", name: "Name", description: "Our membership management software provides full automation of membership renewals and payments", image: "/src/assets/slogo.png" },
 
