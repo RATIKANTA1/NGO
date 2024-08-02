@@ -33,12 +33,9 @@ const About = () => {
             {/* companies stats */}
             <div className='px-4 lg:px-14   mx-auto my-16 bg-gray-100 flex lg:flex-row lg:gap-1 gap-8 flex-col items-center justify-around py-10 h-fit '>
                 
-
                 <MyCard heading={texts[0].heading} para={texts[0].para} imgLink="https://life.futuregenerali.in/Content/images/about/mission.jpg" />
-
-                <MyCard heading={texts[1].heading} para={texts[1].para} imgLink="https://life.futuregenerali.in/Content/images/about/mission.jpg" />
+                <MyCard heading={texts[1].heading} para={texts[1].para} imgLink="https://sitasurat.in/assets/images/about/ourvision.jpg" />
                 
-
             </div>
         </div>
     )

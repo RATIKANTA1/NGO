@@ -4,8 +4,8 @@ import Blog from './components/Blog';
 // import Footer from './components/MyFooter'
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
-// import Products from './components/Products'
+import ConnectUs from './components/ConnectUs';
+import BestVolunteer from './components/BestVolunteer'
 import Services from './components/Services';
 import Donate from './components/Donate';
 import Gallery from './components/Gallery';
@@ -16,6 +16,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 import Groupmember from './components/Groupmember';
+import Location from './components/Location';
 
 function App() {
   const location = useLocation();
@@ -47,11 +48,13 @@ function App() {
       <section id="about"><About /></section>
       <section id='member'><Groupmember/></section>
       <section id="services"><Services /></section>
+      <section id="companies"><Companies /></section>
       <section id="blog"><Blog /></section>
       <section id="donate"><Donate /></section>
-      <section id="companies"><Companies /></section>
+      <section id='bestvolunteer'><BestVolunteer/></section>
       <section id="gallery"><Gallery /></section>
-      <section id="newsletter"><Newsletter /></section>
+      <section id='connectus'><ConnectUs /></section>
+      <section id='location'><Location/></section>
       <Scrolltop/>
       <MyFooter />
     </>

@@ -14,7 +14,7 @@ const Navbar = () => {
         { link: "Our Member", path: "service" },
         { link: "Blog", path: "blog" },
         { link: "Gallery", path: "gallery" },
-        { link: "Join Us", path: "joinus" },
+        { link: "Connect Us", path: "connectus" },
     ];
 
     const handleToggle = () => {
