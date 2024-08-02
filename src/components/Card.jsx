@@ -1,4 +1,4 @@
-import { Button, Card } from "flowbite-react";
+import { Card } from "flowbite-react";
 import { HashLink } from "react-router-hash-link";
 export default function MyCard({ heading, para, imgLink }) {
 
@@ -17,8 +17,6 @@ export default function MyCard({ heading, para, imgLink }) {
       </div>
       <HashLink to={"/readmore"} className="mt-10 btn-primary text-center">
         <span>Read more</span>
-
-
       </HashLink>
     </Card>
   );

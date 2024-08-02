@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from '../assets/profile2.png'
  import ig from '../assets/instagram.png'
-import { BsLinkedin, BsFacebook, BsYoutube, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsLinkedin, BsFacebook, BsTwitter } from "react-icons/bs";
 
 const Groupmember = () => {
     return (

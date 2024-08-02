@@ -1,6 +1,5 @@
 import React from 'react'
 import { IoIosArrowUp } from 'react-icons/io';
-// import { animateScroll as scroll } from 'react-scroll';
 import { useState, useEffect } from 'react';
 
 const Scrolltop = () => {
@@ -33,8 +32,7 @@ const Scrolltop = () => {
                     <button
                          type="button"
                          onClick={scrollToTop}
-                         className="bg-gray-500 text-white p-3 rounded-full shadow-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition-all duration-300"
-                    >
+                         className="bg-gray-500 text-white p-3 rounded-full shadow-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition-all duration-300">
                          <IoIosArrowUp className='text-white' />
                     </button>
                )}
