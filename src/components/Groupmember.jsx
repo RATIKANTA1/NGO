@@ -7,7 +7,7 @@ const Groupmember = () => {
     return (
         <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto' id='group'>
             <div className='mt-3 md:w-1/2 mx-auto text-center' data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
-                <h2 className='text-4xl text-gray-500 font-semibold mb-2'>Group Members</h2>
+                <h2 className='text-4xl text-gray-500 font-semibold mb-2'>Team Members</h2>
                 <p className='text-gray-500 '>We have been working with some fortune 500+ clients</p>
             </div>
 

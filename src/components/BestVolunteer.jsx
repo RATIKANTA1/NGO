@@ -49,7 +49,7 @@ const BestVolunteer = () => {
                             </div>
                             {/* stats */}
                             <div className='md:w-2/3 mx-auto'>
-                                <h2 className='text-4xl text-green-400 font-semibold mb-4 md:w-4/5'>Best Suporter</h2>
+                                <h2 className='text-4xl text-green-400 font-semibold mb-4 md:w-4/5'>Best Supporter</h2>
                                 <div>
                                     <p className='md:w-4/5 text-base text-gray-500 mb-4 leading-7'><span className='font-bold'>Rinku Dhurua</span> stands out as an exceptional supporter, consistently demonstrating unwavering commitment and dedication. His passion and proactive approach make his a driving force in advancing our mission.
                                         With his invaluable contributions and support, Rinku inspires others and significantly impacts our success and growth.</p>
