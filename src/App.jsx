@@ -50,7 +50,7 @@ function App() {
       <section id="services"><Services /></section>
       <section id="companies"><Companies /></section>
       <section id="blog"><Blog /></section>
-      <section id="donate"><Donate /></section>
+      {/* <section id="donate"><Donate /></section> */}
       <section id='bestvolunteer'><BestVolunteer/></section>
       <section id="gallery"><Gallery /></section>
       <section id='connectus'><ConnectUs /></section>
