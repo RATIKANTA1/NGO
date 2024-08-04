@@ -1,14 +1,14 @@
 import React from 'react';
 import { Footer } from "flowbite-react";
 import { BsLinkedin, BsFacebook, BsYoutube, BsInstagram, BsTwitter } from "react-icons/bs";
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 
 
 
 const MyFooter = () => {
 
   return (
-    <Footer  className='px-4 lg:px-14 h-fit mx-auto py-8   '>
+    <Footer className='px-4 lg:px-14 h-fit mx-auto py-8   '>
       <div className="w-full">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center md:px-8">
           <div className=''>
@@ -17,8 +17,8 @@ const MyFooter = () => {
               src={logo}
               alt="Kshitiksha"
               name="Kshitiksha Foundation"
-              className='w-20 h-20 text-wrap'
-          
+              className=' h-8 text-wrap'
+
             />
             <div className='text-gray-700 mt-4 sm:mt-0'>
               <p className='mb-1'>© 2024 Kshitiksha Foundation Ltd</p>
@@ -34,10 +34,10 @@ const MyFooter = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title title="About" />
+              <Footer.Title title="Quick Links" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link href="/home">Home</Footer.Link>
+                <Footer.Link href="#group">Team Member</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
-import grain from '../assets/logo.png';
+import grain from '../assets/logo2.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
         <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <RouterLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src={grain} className="h-8" alt="Flowbite Logo" />
+                    <img src={grain} className="h-10" alt="Flowbite Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Kshitiksha Foundation</span>
                 </RouterLink>
                 <button
