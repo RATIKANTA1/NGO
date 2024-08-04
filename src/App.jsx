@@ -1,7 +1,6 @@
 import './App.css';
 import About from './components/About';
 import Blog from './components/Blog';
-// import Footer from './components/MyFooter'
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import ConnectUs from './components/ConnectUs';
@@ -9,7 +8,6 @@ import BestVolunteer from './components/BestVolunteer'
 import Services from './components/Services';
 // import Donate from './components/Donate';
 import Gallery from './components/Gallery';
-// import Companies from './components/Companies';
 import Scrolltop from './components/Scrolltop';
 import MyFooter from './components/MyFooter';
 import { useEffect } from 'react';
@@ -50,12 +48,11 @@ function App() {
       <section id='member'><Groupmember/></section>
       <section id="services"><Services /></section>
       <section id='bestvolunteer'><BestVolunteer/></section>
-      {/* <section id="companies"><Companies /></section> */}
       <section id="blog"><Blog /></section>
       {/* <section id="donate"><Donate /></section> */}
       <section id="gallery"><Gallery /></section>
       <section id='connectus'><ConnectUs /></section>
-      {/* <section id='locati'><Review/></section> */}
+      <section id='review'><Review/></section>
       <section id='location'><Location/></section>
       <Scrolltop/>
       <MyFooter />

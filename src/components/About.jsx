@@ -34,7 +34,7 @@ const About = () => {
             </div>
 
             {/* companies stats */}
-            <div className='px-4 lg:px-14   mx-auto bg-gray-100 flex lg:flex-row lg:gap-1 gap-8 flex-col items-center justify-around py-10 h-fit '>
+            <div className='px-4 lg:px-14  mx-auto bg-gray-100 flex lg:flex-row flex-col gap-6 items-center justify-around py-10 h-fit '>
 
                 <MyCard heading={texts[0].heading} para={texts[0].para} imgLink="/src/assets/mission.jpg" />
                 <MyCard heading={texts[1].heading} para={texts[1].para} imgLink="/src/assets/Vision3.jpg" />

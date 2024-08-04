@@ -21,7 +21,7 @@ const Gallery = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
                 <div className=' hover:blur-none'>
-                    <img className="h-auto max-w-full rounded-lg hover-scale-95"
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
                         src="/src/assets/g1.jpg" alt="g1" />
                 </div>
                 <div className=' hover:blur-none'>

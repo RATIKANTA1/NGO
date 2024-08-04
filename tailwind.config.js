@@ -9,6 +9,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'radial-gradient(circle, rgba(255,251,235,1) 0%, rgba(255,241,242,1) 99%)',
+      },
+      colors: {
+        'custom-color': '#FFFBEF',
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
         bounceSlow: 'bounceSlow 3s infinite',

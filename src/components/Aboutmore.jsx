@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Card } from 'flowbite-react'
 import Navbar from './Navbar'
 import MyFooter from './MyFooter'
 const Aboutmore = () => {
