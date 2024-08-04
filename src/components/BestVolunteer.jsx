@@ -1,17 +1,22 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
 import hero3 from "../assets/cartoonTmg.png";
+import { IoIosArrowDropleftCircle } from "react-icons/io";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 
 const BestVolunteer = () => {
     return (
         <div >
-            <div className='px-4 md:px-14  py-12 max-w-screen-2xl mx-auto ' id="testimonial">
+            <div className='px-4 md:px-14  py-6 max-w-screen-2xl mx-auto ' id="testimonial">
                 <div className='md:w-1/2 mx-auto text-center' data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <h2 className='text-4xl text-gray-500 font-semibold mb-2'>Our Best Volunteer</h2>
                 </div>
 
-                <div className='mt-8 px-4 lg:px-14 max-w-screen-2xl mx-auto h-[100vh] md:h-[70vh] 2xl:h-[35vh]'>
-                    <Carousel className='w-full mx-auto' data-aos="fade-up" >
+                <div className='mt-8 px-4 lg:px-14 max-w-screen-2xl mx-auto h-[100vh] md:h-[70vh] xl:h-[40vh] 2xl:h-[35vh]'>
+                    <Carousel className='w-full mx-auto' data-aos="fade-up" pauseOnHover 
+                    leftControl={<IoIosArrowDropleftCircle className='text-green-500 scale-[3]' />} 
+                    rightControl={<IoIosArrowDroprightCircle className='text-green-500 scale-[3]' />}>
                         <div className='flex flex-col md:flex-row justify-between items-center py-6'>
                             <div className='md:w-1/3 flex justify-center'>
                                 <img className='h-[65%] w-[65%] md:w-[50%] md:h-[50%]' src={hero3} alt='skb' />

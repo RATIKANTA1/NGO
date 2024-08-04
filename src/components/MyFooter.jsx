@@ -4,7 +4,6 @@ import { BsLinkedin, BsFacebook, BsYoutube, BsInstagram, BsTwitter } from "react
 import logo from '../assets/logo2.png';
 
 
-
 const MyFooter = () => {
 
   return (
@@ -41,10 +40,10 @@ const MyFooter = () => {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
+            <Footer.Title title="Quick Links" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link href="#about">About Us</Footer.Link>
+                <Footer.Link href="#connectus">Connect Us</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

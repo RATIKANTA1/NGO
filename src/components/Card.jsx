@@ -9,15 +9,12 @@ export default function MyCard({ heading, para, imgLink }) {
       <h5 className="text-2xl font-bold tracking-tight text-gray-600 dark:text-white text-center mb-2">
         {heading}
       </h5>
-      <div className="flex lg:flex-col flex-row  justify-between gap-4 max-md:gap-8 items-center">
+      <div className="flex flex-col  justify-between gap-4 max-md:gap-8 items-center">
         <img src={imgLink} className="w-80 h-80 max-md:w-40 max-md:h-40 rounded-md" />
         <p className="font-normal text-gray-600 dark:text-gray-400 px-8 py-2 text-justify">
           {para}
         </p>
       </div>
-      {/* <HashLink to={"/readmore"} className="mt-10 px-7 py-2 bg-green-400 text-white rounded hover:bg-slate-400 text-center">
-        <span>Read more</span>
-      </HashLink> */}
     </Card>
   );
 }
