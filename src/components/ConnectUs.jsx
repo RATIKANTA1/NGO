@@ -56,7 +56,7 @@ const ConnectUs = () => {
                 </div>
 
 
-                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col">
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl  flex flex-col">
                     <img src={intern}
                         alt="Product" className="h-60 w-65 object-cover rounded-t-xl" />
                     <div className="px-4 py-3 w-72">
@@ -68,7 +68,7 @@ const ConnectUs = () => {
                     </div>
                 </div>
 
-                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col" >
+                <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl  flex flex-col" >
                     <img src={contact}
                         alt="Product" className="h-60 w-65 object-cover rounded-t-xl" />
                     <div className="px-4 py-3 w-72">
