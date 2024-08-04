@@ -24,40 +24,40 @@ const MoreGallery = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
-                <div className='blur-[2px] hover:blur-none'>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
+            <div className=' hover:blur-none'>
+                    <img className="h-auto max-w-full rounded-lg hover-scale-95"
+                        src="/src/assets/g1.jpg" alt="g1" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+                        src="/src/assets/g.png" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+                        src="/src/assets/g2.jpg" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+                        src="/src/assets/g3.jpg" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+                        src="/src/assets/g4.jpg" alt="g4" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className='hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
+                        src="/src/assets/g5.png" alt="g5" />
                 </div>
 
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
+                        src="/src/assets/g6.png" alt="g6" />
                 </div>
-                 <div className='blur-[2px] hover:blur-none'>
+                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
+                        src="/src/assets/blog2.jfif" alt="g7" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
                 </div>
@@ -66,7 +66,7 @@ const MoreGallery = () => {
             </div>
             <div className="text-end mt-4 text-blue-700">
                 <button >
-                    <Link to="/?section=gallery">{visibility ? 'Show Less...' : 'Show More...'}</Link>
+                    <Link to="/?section=gallery">{visibility ? 'Back...' : ' More...'}</Link>
                 </button>
             </div>
 

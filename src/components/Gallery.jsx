@@ -15,55 +15,40 @@ const Gallery = () => {
                     Gallery
                 </h2>
                 <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>
-                    Your support has the power to change lives. Whether it's offering food, shelter, medical assistance, or education, every contribution counts. Your generosity makes a meaningful difference in the lives of those in need.
+                Explore Our Journey in Environmental Sustainability, Women's Empowerment, and Community Development Initiatives: Discover the stories, projects, and successes that showcase our commitment to fostering sustainable practices, uplifting women, and transforming communities for a brighter, greener future.
                 </p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover-scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
+                        src="/src/assets/g1.jpg" alt="g1" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+                        src="/src/assets/g.png" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+                        src="/src/assets/g2.jpg" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+                        src="/src/assets/g3.jpg" alt="" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+                        src="/src/assets/g4.jpg" alt="g4" />
                 </div>
-                <div className='blur-[2px] hover:blur-none'>
+                <div className='hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
+                        src="/src/assets/g5.png" alt="g5" />
                 </div>
-                {visibility && (
-                    <>
-                        <div className='blur-[2px] hover:blur-none'>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
-                        </div>
-                        <div className='blur-[2px] hover:blur-none'>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
-                        </div>
-                        <div className='blur-[2px] hover:blur-none'>
-                            <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                                src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
-                        </div>
-                    </>
-                )}
+                
             </div>
             <div className="text-end mt-4 text-blue-700">
                 <button onClick={toggleVisibility}>
-                    <Link to={"/moregallery"}>{visibility ? 'Show Less...' : 'Show More...'}</Link>
+                    <Link to={"/moregallery"}>{visibility ? 'Back' : 'More'}</Link>
                     
                 </button>
             </div>
