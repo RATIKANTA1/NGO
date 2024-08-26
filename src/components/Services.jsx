@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import env1 from '../assets/env1.png';
+import animal from '../assets/animal.png';
+import women from '../assets/women.png';
 
 const Services = () => {
     const services = [
-        { id: 1, title: "Manager", name: "Promote Enviornmental Conservation", description: "Sustain the earth, secure our legacy: support environmental conservation efforts.", image: "/src/assets/env1.png" },
-        { id: 2, title: "National Association", name: "Care for Stray Animals", description: "Stray animals need our kindness: caring for them is a step towards a more humane and loving society.", image: "/src/assets/animal.png" },
-        { id: 3, title: "Clubs and Groups", name: "Women Empowerment", description: "When women rise, society rises: empower women to create transformative change and unlock limitless possibilities.", image: "/src/assets/women.png" },
+        { id: 1, title: "Manager", name: "Promote Enviornmental Conservation", description: "Sustain the earth, secure our legacy: support environmental conservation efforts.", image: env1 },
+        { id: 2, title: "National Association", name: "Care for Stray Animals", description: "Stray animals need our kindness: caring for them is a step towards a more humane and loving society.", image: animal },
+        { id: 3, title: "Clubs and Groups", name: "Women Empowerment", description: "When women rise, society rises: empower women to create transformative change and unlock limitless possibilities.", image: women },
 
     ]
     return (
