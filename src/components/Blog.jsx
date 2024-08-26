@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import blog1 from '../assets/blog1.jfif';
+import blog2 from '../assets/blog2.jfif';
+import blog3 from '../assets/blog4.jfif';
 
 const Blog = () => {
     const blogs = [
-        { id: 1, title: "Passionate about making a difference in the society?💫", image: '/src/assets/blog1.jfif', link: "https://www.linkedin.com/posts/kshitiksha-foundation_kshitikshafoundation-volunteer-activity-7164542821276876800-zoxV?utm_source=share&utm_medium=member_desktop" },
-        { id: 2, title: "Small acts of kindness, big impacts.❤️‍🩹", image: '/src/assets/blog2.jfif', link: "https://www.linkedin.com/posts/kshitiksha-foundation_kshitikshafoundation-volunteereork-volunteer-activity-7204705155877855233-aevE?utm_source=share&utm_medium=member_desktop" },
-        { id: 3, title: "Through books, we sharpen brains, change lives, and spread smiles to these little angels.💓🎓", image: '/src/assets/blog4.jfif', link: "https://www.linkedin.com/posts/kshitiksha-foundation_volunteer-kshitikshafoundation-kindness-activity-7095395869545443328-297u?utm_source=share&utm_medium=member_desktop" },
+        { id: 1, title: "Passionate about making a difference in the society?💫", image: blog1, link: "https://www.linkedin.com/posts/kshitiksha-foundation_kshitikshafoundation-volunteer-activity-7164542821276876800-zoxV?utm_source=share&utm_medium=member_desktop" },
+        { id: 2, title: "Small acts of kindness, big impacts.❤️‍🩹", image: blog2, link: "https://www.linkedin.com/posts/kshitiksha-foundation_kshitikshafoundation-volunteereork-volunteer-activity-7204705155877855233-aevE?utm_source=share&utm_medium=member_desktop" },
+        { id: 3, title: "Through books, we sharpen brains, change lives, and spread smiles to these little angels.💓🎓", image: blog3, link: "https://www.linkedin.com/posts/kshitiksha-foundation_volunteer-kshitikshafoundation-kindness-activity-7095395869545443328-297u?utm_source=share&utm_medium=member_desktop" },
     ]
     return (
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12 bg-gray-100 py-6' id='Blog'>

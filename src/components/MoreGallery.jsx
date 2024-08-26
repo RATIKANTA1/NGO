@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MyFooter from './MyFooter';
 import Navbar from './Navbar';
+import g from '../assets/g.png';
+import g1 from '../assets/g1.jpg';
+import g2 from '../assets/g2.jpg';
+import g3 from '../assets/g3.jpg';
+import g4 from '../assets/g4.jpg';
+import g5 from '../assets/g5.png';
+import g6 from '../assets/g6.png';
+import blog2 from '../assets/blog2.jfif';
+
 
 const MoreGallery = () => {
     const [visibility, setVisibility] = useState(true);
@@ -24,38 +33,38 @@ const MoreGallery = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
-            <div className=' hover:blur-none'>
-                    <img className="h-auto max-w-full rounded-lg hover-scale-95"
-                        src="/src/assets/g1.jpg" alt="g1" />
+                <div className=' hover:blur-none'>
+                    <img className="h-auto max-w-full rounded-lg hover:scale-95"
+                        src={g} alt="g1" />
                 </div>
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g.png" alt="" />
+                        src={g1} alt="" />
                 </div>
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g2.jpg" alt="" />
+                        src={g2} alt="" />
                 </div>
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g3.jpg" alt="" />
+                        src={g3} alt="" />
                 </div>
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g4.jpg" alt="g4" />
+                        src={g4} alt="g4" />
                 </div>
                 <div className='hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g5.png" alt="g5" />
+                        src={g5} alt="g5" />
                 </div>
 
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/g6.png" alt="g6" />
+                        src={g6} alt="g6" />
                 </div>
                  <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"
-                        src="/src/assets/blog2.jfif" alt="g7" />
+                        src={blog2} alt="g7" />
                 </div>
                 <div className=' hover:blur-none'>
                     <img className="h-auto max-w-full rounded-lg hover:scale-95"

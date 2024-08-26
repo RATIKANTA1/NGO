@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import env2 from '../assets/env2.jpg';
+import strayanimal from '../assets/strayanimal.jpg';
+import women1 from '../assets/women1.png';
 
 const Donate = () => {
     return (
@@ -14,7 +17,7 @@ const Donate = () => {
             <section id="Projects" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out"
                 className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl " >
-                    <img src="./src/assets/env2.jpg"
+                    <img src={env2}
                         alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
                     <div className="px-4 py-3 w-72">
                         <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center">Enviornmental Safety</p>
@@ -24,7 +27,7 @@ const Donate = () => {
                     </div>
                 </div>
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                    <img src="./src/assets/strayanimal.jpg"
+                    <img src={strayanimal}
                         alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
                     <div className="px-4 py-3 w-72">
                         <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center">Animals Safety</p>
@@ -34,7 +37,7 @@ const Donate = () => {
                     </div>
                 </div>
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl" >
-                    <img src="./src/assets/women1.png"
+                    <img src={women1}
                         alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
                     <div className="px-4 py-3 w-72">
                         <p className="text-lg font-bold text-black truncate block capitalize mb-2 text-center">Girls Education</p>
