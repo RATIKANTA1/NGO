@@ -40,10 +40,10 @@ const BestVolunteer = () => {
                             <div className='md:w-2/3 mx-auto'>
                                 <h2 className='text-4xl text-green-400 font-semibold mb-4 md:w-4/5'>Best Intern</h2>
                                 <div>
-                                    <p className='md:w-[95%] text-base text-gray-500 mb-4 leading-7'><span className='font-bold'>Suraj Kumar Behera</span> stands out as an exceptional intern, demonstrating remarkable dedication, creativity, and problem-solving skills.
-                                        Their proactive approach and eagerness to learn have significantly contributed to our projects. Suraj’s ability to
+                                    <p className='md:w-[95%] text-base text-gray-500 mb-4 leading-7'><span className='font-bold'>Rupesree Sahoo</span> stands out as an exceptional intern, demonstrating remarkable dedication, creativity, and problem-solving skills.
+                                        Their proactive approach and eagerness to learn have significantly contributed to our projects. Rupesree's ability to
                                         collaborate effectively and deliver high-quality work consistently makes them a valuable asset and a standout performer.</p>
-                                    <h5 className='text-green-400 text-xl font-semibold mb-2'>Suraj Kumar Behera</h5>
+                                    <h5 className='text-green-400 text-xl font-semibold mb-2'>Rupesree Sahoo</h5>
                                 </div>
                             </div>
                         </div>
