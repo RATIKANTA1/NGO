@@ -6,8 +6,6 @@ import banner3 from '../assets/r3.png';
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
-
-
 const Home = () => {
   return (
     <div className="h-56 sm:h-64 sm:w-[24rem]  md:h-[70vh] md:w-auto lg:h-[92vh] lg:w-auto xl:h-[115vh] xl:w-auto  2xl:h-[115vh] 2xl:w-auto">
